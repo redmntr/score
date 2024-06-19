@@ -1,0 +1,70 @@
+@font-face {
+    font-family: timerFont;
+    src: url(timerFont.ttf);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #19244C;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    column-gap: 300px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.type {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score {
+    background-color: black;
+    color: #F9506B;
+    font-size: 150px;
+    margin: auto ;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 110px;
+    padding-left: 110px;
+    border-radius: 10px;
+    font-family: timerFont;
+}
+
+.section {
+    margin: auto;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    column-gap: auto ;
+}
+
+button {
+    margin: 40px auto;
+    font-size: 30px;
+    padding: 15px 16px;
+    border-radius: 8px;
+    background-color: #19244C;
+    color: #8895BD;
+    border: 2px solid #8895BD;
+    font-family: timerFont;
+}
+
+#new-btn {
+    padding: 15px 60px;
+}
+
+.leader {
+    border: 3px solid #FFD700; /* Gold color for the leader */
+    background-color: #19244C; /* Optional: Adjust background to differentiate leader */
+}

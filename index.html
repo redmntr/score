@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div class="section">
+            <h1 class="type" id="home-h1">HOME</h1>
+            <h1 class="score" id="score-home">0</h1>
+            <div class="btn">
+                <button onclick="add1home()">+1</button>
+                <button onclick="add2home()">+2</button>
+                <button onclick="add3home()">+3</button>
+            </div>
+        </div>
+    
+        <div class="section">
+            <h1 class="type">AWAY</h1>
+            <h1 class="score" id="score-guest">0</h1>
+            <div class="btn">
+                <button onclick="add1guest()">+1</button>
+                <button onclick="add2guest()">+2</button>
+                <button onclick="add3guest()">+3</button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button id="new-btn" onclick="newgame()">NEW GAME</button>
+    </div>
+
+    <script src="index.js"></script>
+    
+    
+</body>
+</html>
